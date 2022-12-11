@@ -19,9 +19,15 @@ Then, clone this repo in the new themes directory.
 git clone https://github.com/gicrisf/qute-city-lights.git ~/.config/qutebrowser/themes/qute-city-lights
 ```
 
-Add `config.source('themes/qute-city-lights/city-lights-theme.py')` in your `config.py` file.
+Now, add this line in your config file:
 
-N.B. Make sure you don't mess up with colors after importing it (e.g. by leaving another theme import after this command).
+``` python
+# config.py
+
+config.source('themes/qute-city-lights/city-lights-theme.py')
+```
+
+> N.B. Make sure you don't mess up with colors after importing it (e.g. by leaving another theme import after this command).
 
 Enjoy your new dark theme.
 
