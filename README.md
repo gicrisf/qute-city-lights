@@ -2,7 +2,7 @@
 
 > A matte dark theme for Qutebrowser.
 
-<!-- Screenshot here -->
+![screenshot](screenshot.png)
 
 ## Install
 You could dump off the content of `city-lights-theme.py` in your `config.py` file and it would be effective enough, but here after I will suggest you the tidy way to install a qutebrowser theme.
