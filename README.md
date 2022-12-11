@@ -34,7 +34,9 @@ config.source('themes/qute-city-lights/city-lights-theme.py')
 
 Start Qutebrowser and enjoy your new dark theme.
 
-![Screenshots of different messages](messages-screenshot.png)
+_Detail of different messages:_
+
+![Screenshots of different messages](messages-screenshots.png)
 
 ## Support
 Why don't you help me keeping myself awake buying me a coffee?
