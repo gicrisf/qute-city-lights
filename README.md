@@ -5,21 +5,22 @@
 ![screenshot](screenshot.png)
 
 ## Install
-You could dump off the content of `city-lights-theme.py` in your `config.py` file and it would be effective enough, but here after I will suggest you the tidy way to install a qutebrowser theme.
+You could dump the content of `city-lights-theme.py` in your `config.py` file with a copy-paste move and, as a matter of fact, it would be effective enough; but there are tidier ways to install a qutebrowser theme. I will show mine here.
 
-Make a themes directory in your dot qutebrowser one. Let's say you keep your `config.py` in `~/.config/qutebrowser`:
+First of all, make a `themes` directory in your dot qutebrowser one. 
+Let's say you keep your `config.py` in `~/.config/qutebrowser`:
 
 ``` sh
 mkdir ~/.config/qutebrowser/themes
 ```
 
-Then, clone this repo in the new themes directory.
+Then, clone this repo in the freshly baked themes directory.
 
 ``` sh
 git clone https://github.com/gicrisf/qute-city-lights.git ~/.config/qutebrowser/themes/qute-city-lights
 ```
 
-Now, add this line in your config file:
+Finally, add this line in your config file:
 
 ``` python
 # config.py
@@ -29,11 +30,11 @@ config.source('themes/qute-city-lights/city-lights-theme.py')
 
 > N.B. Make sure you don't mess up with colors after importing it (e.g. by leaving another theme import after this command).
 
-Enjoy your new dark theme.
+Start Qutebrowser and enjoy your new dark theme.
 
 ## Support
 Why don't you help me keeping myself awake buying me a coffee?
-I will use the extra time to write more code!
+I can take care of projects like this one in the extra time!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V425BFU)
 
