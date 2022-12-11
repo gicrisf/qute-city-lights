@@ -153,13 +153,13 @@ c.colors.messages.warning.bg = clr["bg"]
 c.colors.messages.warning.border = clr["persian-orange"]
 
 # Foreground color of an info message.
-c.colors.messages.info.fg = clr["celadon"]
+c.colors.messages.info.fg = clr["electric-blue"]
 
 # Background color of an info message.
 c.colors.messages.info.bg = clr["bg"]
 
 # Border color of an info message.
-c.colors.messages.info.border = clr["celadon"]
+c.colors.messages.info.border = clr["electric-blue"]
 
 ## PROMPTS
 
