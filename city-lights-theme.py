@@ -1,6 +1,7 @@
 clr = {
     "bg": "#1D252C", # bg
     "bg-alt": "#171D22", #bg-alt
+    "bg-alt-256": "#111122", #bg-alt (256)
     "bg-selected": "#10151C", #bg-selected
     "bg-lightened": "#41505e", #bg-lightened
     "fg-disabled": "#56697a", #fg-disabled
@@ -142,10 +143,10 @@ c.colors.messages.warning.border = clr["shimmering-blush"]
 c.colors.messages.info.fg = clr["fg"]
 
 # Background color of an info message.
-c.colors.messages.info.bg = clr["electric-blue"] # ex. bg
+c.colors.messages.info.bg = clr["bg-alt-256"] # ex. bg
 
 # Border color of an info message.
-c.colors.messages.info.border = clr["electric-blue"] # ex. bg
+c.colors.messages.info.border = clr["bg-alt-256"] # ex. bg
 
 # Foreground color for prompts.
 c.colors.prompts.fg = clr["fg"]
