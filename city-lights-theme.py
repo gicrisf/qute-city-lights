@@ -1,15 +1,17 @@
 clr = {
-    "bg": "#1D252C", # bg
-    "bg-alt": "#171D22", #bg-alt
-    "bg-alt-256": "#111122", #bg-alt (256)
+    "bg": "#1D252C", # bg, gunmetal
+    "bg-alt": "#171D22", #bg-alt, eerie-black
+    # "rich-black": "#001021", # rich black FOGRA 29 (extra)
+    "smoky-black": "#0F110C", # smoky black (extra)
     "bg-selected": "#10151C", #bg-selected
     "bg-lightened": "#41505e", #bg-lightened
     "fg-disabled": "#56697a", #fg-disabled
     "fg": "#a0b3c5", #base05 (white-ish, cadet-blue-crayola)
-    "cbc-alt": "#9CAABB", # base08 (white-ish, cadet-blue alt), unused
-    "fg-alt": "#728ca0", #base06 (bright white, light-slate-gray), unused
+    # "cbc-alt": "#9CAABB", # base08 (white-ish, cadet-blue alt)
+    # "fg-alt": "#728ca0", #base06 (bright white, light-slate-gray)
     "maya-blue": "#5ec4ff", # blue
     "paradise-pink": "#d95468", # red
+    # "lava-red": "#C81D25", # red (extra)
     "persian-orange": "#D98E48", # orange
     "gold-crayola": "#EBBF83", # yellow
     "celadon": "#8BD49C", # green
@@ -18,7 +20,10 @@ clr = {
     "shimmering-blush": "#e27e8d", # magenta
     "maroon-x11": "#b62d65", # violet
     "electric-blue": "#70E1E8", # cyan (extra)
+    "midnight-green-eagle": "#114B5F" # unused (extra)
 }
+
+## COMPLETION
 
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.
@@ -34,13 +39,13 @@ c.colors.completion.even.bg = clr["bg"]
 c.colors.completion.category.fg = clr["cornflower-blue"]
 
 # Background color of the completion widget category headers.
-c.colors.completion.category.bg = clr["bg"]
+c.colors.completion.category.bg = clr["bg-alt"]
 
 # Top border color of the completion widget category headers.
-c.colors.completion.category.border.top = clr["bg"]
+c.colors.completion.category.border.top = clr["smoky-black"]
 
 # Bottom border color of the completion widget category headers.
-c.colors.completion.category.border.bottom = clr["bg"]
+c.colors.completion.category.border.bottom = clr["smoky-black"]
 
 # Foreground color of the selected completion item.
 c.colors.completion.item.selected.fg = clr["electric-blue"]
@@ -66,6 +71,8 @@ c.colors.completion.scrollbar.fg = clr["fg"]
 # Color of the scrollbar in the completion view.
 c.colors.completion.scrollbar.bg = clr["bg"]
 
+## CONTEXT MENU
+
 # Background color of disabled items in the context menu.
 c.colors.contextmenu.disabled.bg = clr["bg-alt"]
 
@@ -84,6 +91,8 @@ c.colors.contextmenu.selected.bg = clr["bg-selected"]
 #Foreground color of the context menu’s selected item. If set to null, the Qt default is used.
 c.colors.contextmenu.selected.fg = clr["fg"]
 
+## DOWNLOADS
+
 # Background color for the download bar.
 c.colors.downloads.bar.bg = clr["bg"]
 
@@ -101,6 +110,8 @@ c.colors.downloads.stop.bg = clr["dark-cyan"]
 
 # Foreground color for downloads with errors.
 c.colors.downloads.error.fg = clr["paradise-pink"]
+
+## HINTS
 
 # Font color for hints.
 c.colors.hints.fg = clr["bg"]
@@ -121,32 +132,36 @@ c.colors.keyhint.suffix.fg = clr["gold-crayola"]
 # Background color of the keyhint widget.
 c.colors.keyhint.bg = clr["bg"]
 
+## MESSAGES
+
 # Foreground color of an error message.
-c.colors.messages.error.fg = clr["bg"]
+c.colors.messages.error.fg = clr["paradise-pink"]
 
 # Background color of an error message.
-c.colors.messages.error.bg = clr["paradise-pink"]
+c.colors.messages.error.bg = clr["bg"]
 
 # Border color of an error message.
 c.colors.messages.error.border = clr["paradise-pink"]
 
 # Foreground color of a warning message.
-c.colors.messages.warning.fg = clr["bg"]
+c.colors.messages.warning.fg = clr["persian-orange"]
 
 # Background color of a warning message.
-c.colors.messages.warning.bg = clr["shimmering-blush"]
+c.colors.messages.warning.bg = clr["bg"]
 
 # Border color of a warning message.
-c.colors.messages.warning.border = clr["shimmering-blush"]
+c.colors.messages.warning.border = clr["persian-orange"]
 
 # Foreground color of an info message.
-c.colors.messages.info.fg = clr["fg"]
+c.colors.messages.info.fg = clr["celadon"]
 
 # Background color of an info message.
-c.colors.messages.info.bg = clr["bg-alt-256"] # ex. bg
+c.colors.messages.info.bg = clr["bg"]
 
 # Border color of an info message.
-c.colors.messages.info.border = clr["bg-alt-256"] # ex. bg
+c.colors.messages.info.border = clr["celadon"]
+
+## PROMPTS
 
 # Foreground color for prompts.
 c.colors.prompts.fg = clr["fg"]
@@ -162,6 +177,8 @@ c.colors.prompts.selected.bg = clr["bg-selected"]
 
 # Foreground color for the selected item in filename prompts.
 c.colors.prompts.selected.fg = clr["fg"]
+
+## STATUSBAR
 
 # Foreground color of the statusbar.
 c.colors.statusbar.normal.fg = clr["celadon"]
@@ -233,6 +250,8 @@ c.colors.statusbar.url.success.https.fg = clr["celadon"]
 
 # Foreground color of the URL in the statusbar when there's a warning.
 c.colors.statusbar.url.warn.fg = clr["shimmering-blush"]
+
+## TABS
 
 # Background color of the tab bar.
 c.colors.tabs.bar.bg = clr["bg"]
